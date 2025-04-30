@@ -1,0 +1,76 @@
+body { 
+  font-family: 'Century Gothic';
+  background-color: #F4F4F4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./imagem/img.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color:  #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+  
+}
+
+.h2 {
+  margin-bottom: 10px;
+
+}
+
+.p{
+  margin: 10px 0;
+
+}
+
+.input {
+  box-sizing: border-box;
+ 
+ 
+}
+
+.button {
+  background-color: #bd921d;
+  color: #FFF;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  font-family: 'Century Gothic';
+
+}
+
+.button:hover {
+  opacity: 1;
+  
+}
+
+.complete {
+  background-color: rgba(201, 168, 34, 0.881);
+
+.remove {
+  background-color: red;
+}
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+  
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  width: 100%;
+  font-family: 'Century Gothic';
+}
