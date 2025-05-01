@@ -1,10 +1,9 @@
 body { 
   font-family: 'Century Gothic';
   background-color: #F4F4F4;
-  padding: 30px;
-  color: #333;
+  padding: 10px;
+  color: #157942;
   background-image: url('./imagem/img.jpg');
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,59 +11,80 @@ body {
 
 .app {
   max-width: 600px;
-  margin: 0 auto 300px;
-  background-color:  #efefef;
-  padding: 20px 30px;
-  border-radius: 10px;
+  margin: 0 auto 100px;
+  background-color: rgba(231, 216, 216, 0.456);
+  padding: 10px 20px;
+  border-radius: 15px;  
   
 }
 
-.h2 {
-  margin-bottom: 10px;
-
-}
-
-.p{
+p {
   margin: 10px 0;
 
 }
 
 .input {
   box-sizing: border-box;
- 
- 
 }
 
-.button {
-  background-color: #bd921d;
+.h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #6e8d11;;
   color: #FFF;
   padding: 5px 10px;
+  margin-right: 5px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   opacity: 0.8;
   transition: 0.3s;
   font-family: 'Century Gothic';
-
 }
 
-.button:hover {
+.btn-submit {
+  background-color: #6e8d11;
+}
+button:hover {
   opacity: 1;
   
 }
+.todo.list {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c57171;
+}
 
+.todo {
+    max-width: 600px;
+    margin: 0 auto 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(227, 110, 74, 0.456);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Century Gothic';
+}
+    
 .complete {
-  background-color: rgba(201, 168, 34, 0.881);
+  background-color: rgb(178, 97, 17);
+}
+  
 
 .remove {
-  background-color: red;
-}
+  background-color: rgb(163, 14, 14);
 }
 
 .todo-form {
   padding-bottom: 1.5rem;
-  
+  border-top: 1px solid #2a6919;
+  padding-top: 10px ;
 }
+
 
 input, select {
   padding: 5px;
@@ -73,4 +93,33 @@ input, select {
   border-radius: 3px;
   width: 100%;
   font-family: 'Century Gothic';
+  border-radius: 13px ;
+
+}
+
+.filter {
+  margin-bottom: 10px;  
+  gap: 3rem;  
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  
+}
+ 
+.filter-options { 
+  margin-bottom: 10px 10px;
+  display: flex;
+  justify-content: space-between ;
+  gap: 3rem;
+}
+
+.filter h3{
+  border-top: 1px solid #2a6919;
+  padding-top: 10px;
+}
+
+.filter-options div {
+  flex: 1 1 0;
 }
